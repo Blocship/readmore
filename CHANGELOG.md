@@ -1,3 +1,5 @@
+## [2.2.1]
+- shouldToggleOnTap is added to override the default behavior of toggling the text on tap.
 ## [2.2.0]
 - Update to Flutter 3.
 
