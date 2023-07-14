@@ -101,7 +101,7 @@ class ReadMoreTextState extends State<ReadMoreText> {
   bool _readMore = true;
 
   void _onTapLink() {
-    if (widget.shouldToggleOnTap) {
+    if (!widget.shouldToggleOnTap) {
      return;
     }
     setState(() {
